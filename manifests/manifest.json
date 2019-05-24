@@ -1,0 +1,1412 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://jeffreycwitt.com/custom/manifest",
+  "@type": "sc:Manifest",
+  "label": "Manifest for custom",
+  "description": "Manifest for custom",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sequences": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "http://jeffreycwitt.com/custom/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current page order",
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged",
+      "canvases": [
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/1",
+          "@type": "sc:Canvas",
+          "label": "bdinski001v",
+          "height": 1279,
+          "width": 866,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/1-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/1",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/1",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1279,
+                "width": 866,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski001v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/2",
+          "@type": "sc:Canvas",
+          "label": "demo",
+          "height": 1279,
+          "width": 866,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/2-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/2",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/2",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1279,
+                "width": 866,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/demo.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/3",
+          "@type": "sc:Canvas",
+          "label": "bdinski002r",
+          "height": 1279,
+          "width": 813,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/3-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/3",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/3",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1279,
+                "width": 813,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski002r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/4",
+          "@type": "sc:Canvas",
+          "label": "bdinski002v",
+          "height": 1274,
+          "width": 801,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/4-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/4",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/4",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1274,
+                "width": 801,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski002v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/5",
+          "@type": "sc:Canvas",
+          "label": "bdinski003r",
+          "height": 1273,
+          "width": 811,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/5-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/5",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/5",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1273,
+                "width": 811,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski003r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/6",
+          "@type": "sc:Canvas",
+          "label": "bdinski003v",
+          "height": 1266,
+          "width": 815,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/6-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/6",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/6",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1266,
+                "width": 815,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski003v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/7",
+          "@type": "sc:Canvas",
+          "label": "bdinski004r",
+          "height": 1283,
+          "width": 827,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/7-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/7",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/7",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1283,
+                "width": 827,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski004r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/8",
+          "@type": "sc:Canvas",
+          "label": "bdinski004v",
+          "height": 1285,
+          "width": 815,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/8-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/8",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/8",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1285,
+                "width": 815,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski004v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/9",
+          "@type": "sc:Canvas",
+          "label": "bdinski005r",
+          "height": 1281,
+          "width": 817,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/9-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/9",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/9",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1281,
+                "width": 817,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski005r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/10",
+          "@type": "sc:Canvas",
+          "label": "bdinski005v",
+          "height": 1281,
+          "width": 906,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/10-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/10",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/10",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1281,
+                "width": 906,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski005v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/11",
+          "@type": "sc:Canvas",
+          "label": "bdinski006r",
+          "height": 1279,
+          "width": 811,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/11-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/11",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/11",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1279,
+                "width": 811,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski006r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/12",
+          "@type": "sc:Canvas",
+          "label": "bdinski006v",
+          "height": 1279,
+          "width": 825,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/12-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/12",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/12",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1279,
+                "width": 825,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski006v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/13",
+          "@type": "sc:Canvas",
+          "label": "bdinski007r",
+          "height": 1293,
+          "width": 834,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/13-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/13",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/13",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1293,
+                "width": 834,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski007r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/14",
+          "@type": "sc:Canvas",
+          "label": "bdinski007v",
+          "height": 1275,
+          "width": 825,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/14-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/14",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/14",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1275,
+                "width": 825,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski007v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/15",
+          "@type": "sc:Canvas",
+          "label": "bdinski008r",
+          "height": 1304,
+          "width": 840,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/15-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/15",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/15",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1304,
+                "width": 840,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski008r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/16",
+          "@type": "sc:Canvas",
+          "label": "bdinski008v",
+          "height": 1289,
+          "width": 834,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/16-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/16",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/16",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1289,
+                "width": 834,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski008v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/17",
+          "@type": "sc:Canvas",
+          "label": "bdinski009r",
+          "height": 1283,
+          "width": 842,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/17-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/17",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/17",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1283,
+                "width": 842,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski009r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/18",
+          "@type": "sc:Canvas",
+          "label": "bdinski009v",
+          "height": 1287,
+          "width": 828,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/18-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/18",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/18",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1287,
+                "width": 828,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski009v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/19",
+          "@type": "sc:Canvas",
+          "label": "bdinski010r",
+          "height": 1277,
+          "width": 834,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/19-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/19",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/19",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1277,
+                "width": 834,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski010r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/20",
+          "@type": "sc:Canvas",
+          "label": "bdinski010v",
+          "height": 1293,
+          "width": 819,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/20-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/20",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/20",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1293,
+                "width": 819,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski010v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/21",
+          "@type": "sc:Canvas",
+          "label": "bdinski011r",
+          "height": 1287,
+          "width": 830,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/21-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/21",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/21",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1287,
+                "width": 830,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski011r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/22",
+          "@type": "sc:Canvas",
+          "label": "bdinski011v",
+          "height": 1281,
+          "width": 821,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/22-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/22",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/22",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1281,
+                "width": 821,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski011v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/23",
+          "@type": "sc:Canvas",
+          "label": "bdinski012r",
+          "height": 1287,
+          "width": 838,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/23-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/23",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/23",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1287,
+                "width": 838,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski012r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/24",
+          "@type": "sc:Canvas",
+          "label": "bdinski012v",
+          "height": 1281,
+          "width": 828,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/24-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/24",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/24",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1281,
+                "width": 828,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski012v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/25",
+          "@type": "sc:Canvas",
+          "label": "bdinski013r",
+          "height": 1285,
+          "width": 836,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/25-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/25",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/25",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1285,
+                "width": 836,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski013r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/26",
+          "@type": "sc:Canvas",
+          "label": "bdinski013v",
+          "height": 1285,
+          "width": 840,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/26-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/26",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/26",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1285,
+                "width": 840,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski013v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/27",
+          "@type": "sc:Canvas",
+          "label": "bdinski014r",
+          "height": 1283,
+          "width": 836,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/27-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/27",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/27",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1283,
+                "width": 836,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski014r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/28",
+          "@type": "sc:Canvas",
+          "label": "bdinski014v",
+          "height": 1289,
+          "width": 838,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/28-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/28",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/28",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1289,
+                "width": 838,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski014v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/29",
+          "@type": "sc:Canvas",
+          "label": "bdinski015r",
+          "height": 1285,
+          "width": 807,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/29-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/29",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/29",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1285,
+                "width": 807,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski015r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/30",
+          "@type": "sc:Canvas",
+          "label": "bdinski015v",
+          "height": 1287,
+          "width": 854,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/30-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/30",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/30",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1287,
+                "width": 854,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski015v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/31",
+          "@type": "sc:Canvas",
+          "label": "bdinski016r",
+          "height": 1281,
+          "width": 823,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/31-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/31",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/31",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1281,
+                "width": 823,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski016r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/32",
+          "@type": "sc:Canvas",
+          "label": "bdinski016v",
+          "height": 1289,
+          "width": 834,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/32-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/32",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/32",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1289,
+                "width": 834,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski016v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/33",
+          "@type": "sc:Canvas",
+          "label": "bdinski017r",
+          "height": 1293,
+          "width": 819,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/33-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/33",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/33",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1293,
+                "width": 819,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski017r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/34",
+          "@type": "sc:Canvas",
+          "label": "bdinski017v",
+          "height": 1278,
+          "width": 813,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/34-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/34",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/34",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1278,
+                "width": 813,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski017v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/35",
+          "@type": "sc:Canvas",
+          "label": "bdinski018r",
+          "height": 1200,
+          "width": 779,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/35-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/35",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/35",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1200,
+                "width": 779,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski018r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/36",
+          "@type": "sc:Canvas",
+          "label": "bdinski018v",
+          "height": 1200,
+          "width": 760,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/36-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/36",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/36",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1200,
+                "width": 760,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski018v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/37",
+          "@type": "sc:Canvas",
+          "label": "bdinski019r",
+          "height": 1200,
+          "width": 779,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/37-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/37",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/37",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1200,
+                "width": 779,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski019r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/38",
+          "@type": "sc:Canvas",
+          "label": "bdinski072r",
+          "height": 815,
+          "width": 509,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/38-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/38",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/38",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 815,
+                "width": 509,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski072r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/39",
+          "@type": "sc:Canvas",
+          "label": "bdinski072v",
+          "height": 816,
+          "width": 512,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/39-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/39",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/39",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 816,
+                "width": 512,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski072v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/40",
+          "@type": "sc:Canvas",
+          "label": "bdinski073r",
+          "height": 819,
+          "width": 513,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/40-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/40",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/40",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 819,
+                "width": 513,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski073r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/41",
+          "@type": "sc:Canvas",
+          "label": "bdinski073v",
+          "height": 818,
+          "width": 510,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/41-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/41",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/41",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 818,
+                "width": 510,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski073v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/42",
+          "@type": "sc:Canvas",
+          "label": "bdinski074r",
+          "height": 819,
+          "width": 515,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/42-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/42",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/42",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 819,
+                "width": 515,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski074r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/43",
+          "@type": "sc:Canvas",
+          "label": "bdinski074v",
+          "height": 816,
+          "width": 514,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/43-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/43",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/43",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 816,
+                "width": 514,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski074v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/44",
+          "@type": "sc:Canvas",
+          "label": "bdinski075r",
+          "height": 826,
+          "width": 519,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/44-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/44",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/44",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 826,
+                "width": 519,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski075r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/45",
+          "@type": "sc:Canvas",
+          "label": "bdinski075v",
+          "height": 823,
+          "width": 510,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/45-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/45",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/45",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 823,
+                "width": 510,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski075v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/46",
+          "@type": "sc:Canvas",
+          "label": "bdinski076r",
+          "height": 810,
+          "width": 509,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/46-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/46",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/46",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 810,
+                "width": 509,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski076r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/47",
+          "@type": "sc:Canvas",
+          "label": "bdinski076v",
+          "height": 813,
+          "width": 523,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/47-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/47",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/47",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 813,
+                "width": 523,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski076v.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "http://jeffreycwitt.com/custom/canvas/48",
+          "@type": "sc:Canvas",
+          "label": "bdinski077r",
+          "height": 810,
+          "width": 504,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://jeffreycwitt.com/custom/annotation/48-image",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://jeffreycwitt.com/custom/canvas/48",
+              "resource": {
+                "@id": "http://jeffreycwitt.com/custom/res/48",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 810,
+                "width": 504,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8182/iiif/2/bdinski077r.jpg",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
